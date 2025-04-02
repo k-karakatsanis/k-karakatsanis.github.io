@@ -26,10 +26,10 @@ latest_posts:
 
 I am a cybersecurity professional 
 with a strong background in both research and engineering.
-I hold an MS in Electrical and Computer Engineering from 
-[Georgia Tech](https://www.gatech.edu) 
-and a BS in Management Science and Technology from the 
-[Athens University of Economics and Business](https://www.aueb.gr).
+I hold an MS in [Electrical and Computer Engineering](https://ece.gatech.edu/) 
+from [Georgia Tech](https://www.gatech.edu) 
+and a BS in [Management Science and Technology](https://www.dept.aueb.gr/dmst) 
+from the [Athens University of Economics and Business](https://www.aueb.gr).
 My research focuses on computer security, 
 particularly static analysis, reverse engineering, and vulnerability detection.
 
@@ -39,5 +39,3 @@ while working on malware analysis projects.
 My work includes 
 developing static analysis tools for identifying security vulnerabilities and 
 implementing large-scale systems for collecting and analyzing publicly available data.
-
-When not working on security challenges, I enjoy cooking, especially Greek and Italian cuisine.
