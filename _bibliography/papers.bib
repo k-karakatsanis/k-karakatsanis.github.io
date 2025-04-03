@@ -1,115 +1,22 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@phdthesis{karakatsanis2024xplicit,
+  title={Xplicit: Static Information Flow Analysis for ARM32 Firmware},
+  author={Karakatsanis, Konstantinos},
+  year={2024},
+  school={Georgia Institute of Technology},
+  abstract={In this work, we designed and implemented Xplicit; a static approach that aims to help identify potential vulnerabilities in firmware. The approach performs inter-procedural information flow analysis to track if untrusted data coming from different sources can reach sinks of interest after propagation. Our method takes into account two important elements, namely (1) implicit data flows and (2) the access of hardware control registers. We leveraged IDA Pro to disassemble firmware binaries. Then, we visualized the information flows and the corresponding instructions using NetworkX graphs. Finally, we scaled the analysis by parallelizing it with GNU Parallel and running IDA Pro in autonomous mode. Our approach is the first implementation to identify implicit data flows in ARM32 firmware binaries to the best of our knowledge. In addition, it minimizes the dependency on IDA Pro (after disassembly), so even less technical people or people with no IDA Pro knowledge will be enabled to look at the information flows and detect potential vulnerabilities. Our research can have a huge impact because it could identify potential vulnerabilities affecting devices running ARM32 firmware. Such devices can be found everywhere, from home Internet of Things (IoT) devices used by individuals to field devices used by an Industrial Control System (ICS).},
+  pdf={xplicit.pdf},
+  website={https://hdl.handle.net/1853/75716},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{alrawi2024sok,
+  title={SoK: An Essential Guide For Using Malware Sandboxes In Security Applications: Challenges, Pitfalls, and Lessons Learned},
+  author={Alrawi, Omar and Wong, Miuyin Yong and Avgetidis, Athanasios and Valakuzhy, Kevin and Adjibi, Boladji Vinny and Karakatsanis, Konstantinos and Ahamad, Mustaque and Blough, Doug and Monrose, Fabian and Antonakakis, Manos},
+  journal={arXiv preprint arXiv:2403.16304},
+  year={2024},
+  abstract={Malware sandboxes provide many benefits for security applications, but they are complex. These complexities can overwhelm new users in different research areas and make it difficult to select, configure, and use sandboxes. Even worse, incorrectly using sandboxes can have a negative impact on security applications. In this paper, we address this knowledge gap by systematizing 84 representative papers for using x86/64 malware sandboxes in the academic literature. We propose a novel framework to simplify sandbox components and organize the literature to derive practical guidelines for using sandboxes. We evaluate the proposed guidelines systematically using three common security applications and demonstrate that the choice of different sandboxes can significantly impact the results. Specifically, our results show that the proposed guidelines improve the sandbox observable activities by at least 1.6x and up to 11.3x. Furthermore, we observe a roughly 25% improvement in accuracy, precision, and recall when using the guidelines to help with a malware family classification task. We conclude by affirming that there is no ''silver bullet'' sandbox deployment that generalizes, and we recommend that users apply our framework to define a scope for their analysis, a threat model, and derive context about how the sandbox artifacts will influence their intended use case. Finally, it is important that users document their experiment, limitations, and potential solutions for reproducibility.},
+  pdf={sok_sandboxes.pdf},
+  website={https://arxiv.org/abs/2403.16304},
 }
