@@ -24,18 +24,25 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a cybersecurity professional 
-with a strong background in both research and engineering.
-I hold an MS in [Electrical and Computer Engineering](https://ece.gatech.edu/) 
-from [Georgia Tech](https://www.gatech.edu) 
-and a BS in [Management Science and Technology](https://www.dept.aueb.gr/dmst) 
-from the [Athens University of Economics and Business](https://www.aueb.gr).
-My research focuses on computer security, 
-particularly static analysis, reverse engineering, and vulnerability detection.
+I am a Security Research Engineer at the [Athens University of Economics and Business](https://www.aueb.gr/).
+My research lies at the intersection of 
+software/firmware security and software engineering, 
+with a focus on 
+program analysis, reverse engineering, and vulnerability detection.
 
-At Georgia Tech, I served as the instructor for the Introduction to Computer Security class.
-I also led research projects in firmware reverse engineering and email security 
-while working on malware analysis projects.
-My work includes 
-developing static analysis tools for identifying security vulnerabilities and 
-implementing large-scale systems for collecting and analyzing publicly available data.
+Currently, 
+I work on the [SecOPERA](https://secopera.eu/) project, 
+where I develop practical tools for code debloating 
+to improve software maintainability and reduce security risks. 
+Previously, at Georgia Tech, 
+I led research projects in firmware reverse engineering and email security, 
+worked on malware analysis projects, 
+and served as the instructor for the *Introduction to Computer Security* class.
+
+I hold an M.S. in Electrical and Computer Engineering 
+from [Georgia Tech](https://www.gatech.edu/) 
+and a B.S. in Management Science and Technology 
+from the [Athens University of Economics and Business](https://www.aueb.gr).
+I specialize in 
+designing and implementing program analysis–based tools to identify security vulnerabilities 
+and developing large-scale systems for data collection and analysis.
