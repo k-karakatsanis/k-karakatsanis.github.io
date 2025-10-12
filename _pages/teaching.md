@@ -6,9 +6,18 @@ description:
 nav: true
 nav_order: 6
 ---
+
+#### Georgia Tech | School of Electrical and Computer Engineering
 ---
-## Georgia Tech | School of Electrical and Computer Engineering
-### Instructor
+##### Studio Instructor
+**Technology Entrepreneurship (ECE 6001)**
+
+Coached students through hands-on entrepreneurship studios focused on:
+*Startup ideation, Customer Discovery, Business Model Canvas Development, Minimum Viable Product Creation, Pivot Strategies, Lean Startup Methodologies, and Startup Pitch Preparation.*
+
+- **Spring 2024** (92 students: 32 Atlanta campus, 60 online including 30 from Shenzhen campus)
+
+##### Instructor
 **Introduction to Computer Security (ECE 4115)**
 
 Introduced students to a comprehensive range of cybersecurity topics including:
@@ -18,10 +27,11 @@ Introduced students to a comprehensive range of cybersecurity topics including:
 - **Fall 2022** (38 students)
 
 
-### Head Lab Instructor
+##### Head Lab Instructor
 **Introduction to Computer Security (ECE 4115)**
 
-Guided students through hands-on cybersecurity laboratories using the [Labtainers](https://nps.edu/web/c3o/labtainers) framework from the Naval Postgraduate School. Labs covered practical applications of: *Buffer Overflow, Access Control Lists, Metasploit, Snort, VPN, Symmetric Key Cryptography, MACs-Hash, Wireshark, TCP/IP, and Grassmarlin.*
+Guided students through hands-on cybersecurity laboratories using the [Labtainers](https://nps.edu/web/c3o/labtainers) framework from the Naval Postgraduate School. Labs covered practical applications of:
+*Buffer Overflow, Access Control Lists, Metasploit, Snort, VPN, Symmetric Key Cryptography, MACs-Hash, Wireshark, TCP/IP, and Grassmarlin.*
 
 - **Spring 2022** (44 students)
 - **Fall 2021** (54 students)
