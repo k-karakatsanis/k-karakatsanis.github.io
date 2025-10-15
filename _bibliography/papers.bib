@@ -7,7 +7,11 @@
   year={2024},
   school={Georgia Institute of Technology},
   abbr={MS Thesis},
-  abstract={In this work, we designed and implemented Xplicit; a static approach that aims to help identify potential vulnerabilities in firmware. The approach performs inter-procedural information flow analysis to track if untrusted data coming from different sources can reach sinks of interest after propagation. Our method takes into account two important elements, namely (1) implicit data flows and (2) the access of hardware control registers. We leveraged IDA Pro to disassemble firmware binaries. Then, we visualized the information flows and the corresponding instructions using NetworkX graphs. Finally, we scaled the analysis by parallelizing it with GNU Parallel and running IDA Pro in autonomous mode. Our approach is the first implementation to identify implicit data flows in ARM32 firmware binaries to the best of our knowledge. In addition, it minimizes the dependency on IDA Pro (after disassembly), so even less technical people or people with no IDA Pro knowledge will be enabled to look at the information flows and detect potential vulnerabilities. Our research can have a huge impact because it could identify potential vulnerabilities affecting devices running ARM32 firmware. Such devices can be found everywhere, from home Internet of Things (IoT) devices used by individuals to field devices used by an Industrial Control System (ICS).},
+  abstract={<p>In this work, we designed and implemented Xplicit; a static approach that aims to help identify potential vulnerabilities in firmware. The approach performs inter-procedural information flow analysis to track if untrusted data coming from different sources can reach sinks of interest after propagation. Our method takes into account two important elements, namely (1) implicit data flows and (2) the access of hardware control registers.</p>
+  <br>
+  <p>We leveraged IDA Pro to disassemble firmware binaries. Then, we visualized the information flows and the corresponding instructions using NetworkX graphs. Finally, we scaled the analysis by parallelizing it with GNU Parallel and running IDA Pro in autonomous mode. Our approach is the first implementation to identify implicit data flows in ARM32 firmware binaries to the best of our knowledge. In addition, it minimizes the dependency on IDA Pro (after disassembly), so even less technical people or people with no IDA Pro knowledge will be enabled to look at the information flows and detect potential vulnerabilities.</p>
+  <br>
+  <p>Our research can have a huge impact because it could identify potential vulnerabilities affecting devices running ARM32 firmware. Such devices can be found everywhere, from home Internet of Things (IoT) devices used by individuals to field devices used by an Industrial Control System (ICS).</p>},
   pdf={xplicit.pdf},
   website={https://hdl.handle.net/1853/75716},
 }
@@ -21,4 +25,23 @@
   abstract={Malware sandboxes provide many benefits for security applications, but they are complex. These complexities can overwhelm new users in different research areas and make it difficult to select, configure, and use sandboxes. Even worse, incorrectly using sandboxes can have a negative impact on security applications. In this paper, we address this knowledge gap by systematizing 84 representative papers for using x86/64 malware sandboxes in the academic literature. We propose a novel framework to simplify sandbox components and organize the literature to derive practical guidelines for using sandboxes. We evaluate the proposed guidelines systematically using three common security applications and demonstrate that the choice of different sandboxes can significantly impact the results. Specifically, our results show that the proposed guidelines improve the sandbox observable activities by at least 1.6x and up to 11.3x. Furthermore, we observe a roughly 25% improvement in accuracy, precision, and recall when using the guidelines to help with a malware family classification task. We conclude by affirming that there is no ''silver bullet'' sandbox deployment that generalizes, and we recommend that users apply our framework to define a scope for their analysis, a threat model, and derive context about how the sandbox artifacts will influence their intended use case. Finally, it is important that users document their experiment, limitations, and potential solutions for reproducibility.},
   pdf={sok_sandboxes.pdf},
   website={https://arxiv.org/abs/2403.16304},
+}
+
+@inproceedings{karakatsanis2025pytrim,
+  title={PyTrim: A Practical Tool for Reducing Python Dependency Bloat},
+  author={Karakatsanis, Konstantinos and Alexopoulos, Georgios and Karyotakis, Ioannis and Proestakis, Foivos Timotheos and Talos, Evangelos and Louridas, Panos and Mitropoulos, Dimitris},
+  booktitle={Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
+  abstract={<p>Dependency bloat is a persistent challenge in Python projects, which increases maintenance costs and security risks. While numerous tools exist for detecting unused dependencies in Python, removing these dependencies across the source code and configuration files of a project requires manual effort and expertise.</p>
+  <br>
+  <p>To tackle this challenge we introduce PYTRIM, an end-to-end system to automate this process. PYTRIM eliminates unused imports and package declarations across a variety of file types, including Python source and configuration files such as requirements.txt and setup.py. PYTRIM’s modular design makes it agnostic to the source of dependency bloat information, enabling integration with any detection tool. Beyond its contribution when it comes to automation, PYTRIM also incorporates a novel dynamic analysis component that improves dependency detection recall.</p>
+  <br>
+  <p>Our evaluation of PYTRIM’s end-to-end effectiveness on a ground-truth dataset of 37 merged pull requests from prior work, shows that PYTRIM achieves 98.3% accuracy in replicating human-made changes. To show its practical impact, we run PYTRIM on 971 open-source packages, identifying and trimming bloated dependencies in 39 of them. For each case, we submit a corresponding pull request, 6 of which have already been accepted and merged. PYTRIM is available as an open-source project, encouraging community contributions and further development.</p>
+  <br>
+  <p>Video demonstration: <a href="https://youtu.be/LqTEdOUbJRI">https://youtu.be/LqTEdOUbJRI</a></p>
+  <p>Code repository: <a href="https://github.com/TrimTeam/PyTrim">https://github.com/TrimTeam/PyTrim</a></p>},
+  pdf={pytrim.pdf},
+  website={https://arxiv.org/abs/2510.00674},
+  pages={TBD},
+  year={2025},
+  abbr={ASE 2025},
 }
