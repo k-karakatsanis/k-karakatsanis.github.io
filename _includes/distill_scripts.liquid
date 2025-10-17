@@ -216,6 +216,15 @@
   <script async defer src="https://openpanel.dev/op1.js"></script>
 {% endif %}
 
+{% if site.enable_umami_analytics and jekyll.environment == "production" %}
+  <!-- Umami Analytics -->
+  <script
+    defer
+    src="https://cloud.umami.is/script.js"
+    data-website-id="{{ site.umami_analytics }}"
+  ></script>
+{% endif %}
+
 {% if site.enable_progressbar %}
   <!-- Scrolling Progress Bar -->
   <script defer src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
