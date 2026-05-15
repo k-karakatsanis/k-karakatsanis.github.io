@@ -30,7 +30,6 @@ software/firmware security and software engineering,
 with a focus on 
 program analysis, reverse engineering, and vulnerability detection.
 
-Currently, 
 I work on the [SecOPERA](https://secopera.eu/) project, 
 where I develop practical tools for code debloating 
 to improve software maintainability and reduce security risks. 
