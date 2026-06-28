@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Security Research Engineer
+subtitle: Systems Architect & Researcher
 
 profile:
   align: right
@@ -24,20 +24,30 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Security Research Engineer at the [Athens University of Economics and Business](https://www.aueb.gr/).
-My research lies at the intersection of 
+I am a Systems Architect
+at the [Greek Research and Technology Network](https://grnet.gr/) (GRNET) 
+and a Ph.D. candidate 
+at the [National and Kapodistrian University of Athens](https://uoa.gr/).
+My work and research interests lie at the intersection of 
 software/firmware security and software engineering, 
 with a focus on 
 program analysis, reverse engineering, and vulnerability detection.
 
-Currently, 
-I work on the [SecOPERA](https://secopera.eu/) project, 
-where I develop practical tools for code debloating 
+I have a proven track record 
+in leading and contributing to multiple US- and EU-funded research projects.
+Most recently, within the [SecOPERA](https://secopera.eu/) project, 
+I developed practical tools for code debloating 
 to improve software maintainability and reduce security risks. 
-Previously, at Georgia Tech, 
+Previously, at [Georgia Tech](https://www.gatech.edu/), 
 I led research projects in firmware reverse engineering and email security, 
 worked on malware analysis projects, 
 and served as the instructor for the *Introduction to Computer Security* class.
+
+In the open-source community, 
+I have contributed to [NetworkX](https://github.com/networkx/networkx), 
+a widely-used Python library for complex network and graph analysis, 
+and co-created [PyTrim](https://github.com/TrimTeam/PyTrim/), 
+an automated tool for detecting and removing unused dependencies in Python projects.
 
 I hold an M.S. in Electrical and Computer Engineering 
 from [Georgia Tech](https://www.gatech.edu/) 
